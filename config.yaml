@@ -32,7 +32,14 @@ params:
   # specify whether you want to show Table of Contents in reading page
   enableTOC: true
 
+  background: "https://res.cloudinary.com/luggs/image/upload/v1599117139/Allgemein/Background/background.jpg"
+
+  logo:
+    main: "https://res.cloudinary.com/luggs/image/upload/v1529304691/Webseite/logo_informatik_sg.png"
+    inverted: "https://res.cloudinary.com/luggs/image/upload/v1529304691/Webseite/logo_informatik_sg.png"
+    favicon: "https://res.cloudinary.com/luggs/image/upload/w_80/v1629730739/oliverlux.ch/logo-lux.svg"
+
   # Provide newsletter configuration. This feature hasn't been implemented yet.
   # Currently, you can just hide it from the footer.
   newsletter:
-    enable: true
+    enable: false
