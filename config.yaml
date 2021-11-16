@@ -21,6 +21,7 @@ markup:
 # Enable global emoji support
 enableEmoji: true
 
+
 # Site parameters
 params:
   # GitHub repo URL of your site
@@ -32,17 +33,8 @@ params:
   # specify whether you want to show Table of Contents in reading page
   enableTOC: true
 
-  background: "https://res.cloudinary.com/luggs/image/upload/v1599117139/Allgemein/Background/background.jpg"
 
-  # Provide logos for your site. The inverted logo will be used in the initial
-  # transparent navbar and the main logo will be used in the non-transparent navbar.
-  # It will be default to the theme logos if not provided.
-  logo:
-    main: "https://res.cloudinary.com/luggs/image/upload/w_500/v1629781242/oliverlux.ch/logo-lux_black.svg"
-  #  main: "https://res.cloudinary.com/luggs/image/upload/v1613548036/oliverlux.ch/1px.png"
-    inverted: "https://res.cloudinary.com/luggs/image/upload/w_100/v1629781242/oliverlux.ch/logo-lux_white.svg"
-  #  inverted: "https://res.cloudinary.com/luggs/image/upload/v1613548036/oliverlux.ch/1px.png"
-
+  
 
   # Provide newsletter configuration. This feature hasn't been implemented yet.
   # Currently, you can just hide it from the footer.
