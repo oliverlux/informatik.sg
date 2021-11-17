@@ -1,6 +1,6 @@
 #baseURL: https://oliverlux.github.io/informatik.sg
 
-languageCode: en-us
+languageCode: de-de
 title: "informatik.sg"
 theme: "toha"
 
@@ -25,7 +25,7 @@ relativeURLs: true
 # Site parameters
 params:
   # GitHub repo URL of your site
-  gitRepo: https://github.com/hugo-toha/hugo-toha.github.io
+  gitRepo: https://github.com/oliverlux/informatik.sg
 
   # specify whether you want to write some blog posts or not
   enableBlogPost: true
@@ -33,7 +33,8 @@ params:
   # specify whether you want to show Table of Contents in reading page
   enableTOC: true
 
-
+  # specific background
+  background: images/nord-background.png
   
 
   # Provide newsletter configuration. This feature hasn't been implemented yet.

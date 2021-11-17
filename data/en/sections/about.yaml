@@ -1,39 +1,48 @@
 # section information
 section:
-  name: About
-  id: about
+  name: Allgemein
+  id: allgemein
   enable: true
   weight: 1
   showOnNavbar: true
   template: sections/about.html
 
 # your designation
-designation: Software Engineer
+designation: Informatik
 # your company information
 company:
-  name: Example Co.
-  url: "https://www.example.com"
+  name: GBS St.Gallen
+  url: "https://www.gbssg.ch"
 
 # your resume. this file path should be relative to you "static" directory
-resume: "files/resume.pdf"
+# resume: "https://www.gbssg.ch"
 
 # a summary about you
-summary: 'I am a passionate software engineer with x years of working experience. I built OSS tools for [Kubernetes](https://kubernetes.io/) using GO. My tools help people to deploy their workloads in Kubernetes. Sometimes, I work on some fun projects such as writing a theme, etc.'
+summary: 'In diesem Webauftritt sind sämtliche Links zu den Unterlagen von Oliver Lux verlinkt. Zudem sind zusätzliche Informationen rund um die Ausbildung Informatik zu finden. Offizielle Informationen zur Ausbildung Informatiker finden Sie unter https://www.gbssg.ch'
 
 # your social links
 # give as many as you want. use font-awesome for the icons.
 socialLinks:
+- name: Twitter
+  icon: "fab fa-twitter"
+  url: "https://www.twitter.com/oliverlux"
+- name: Linkedin
+  icon: "fab fa-linkedin"
+  url: "https://www.linkedin.com/in/oliver-lux-856b593/"
 - name: Github
   icon: "fab fa-github"
-  url: "https://www.github.com/example"
+  url: "https://www.github.com/oliverlux"
 
 # your soft skills
 # give the percentage between 50 to 100 with 5 intervals.
 # currently supported colors: blue, yellow, pink, green, sky, orange
 softSkills:
-- name: Leadership
+- name: Unterlagen Module
   percentage: 85
   color: blue
-- name: Team Work
-  percentage: 90
+- name: Allgemeine Informationen
+  percentage: 60
   color: yellow
+- name: Weiterführende Links
+  percentage: 30
+  color: green

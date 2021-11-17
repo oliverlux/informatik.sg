@@ -1,6 +1,6 @@
 # section information
 section:
-  name: Skills
+  name: Schwerpunkte
   id: skills
   enable: true
   weight: 2
@@ -11,10 +11,10 @@ section:
 # Your Skills.
 # Give a summary of you each skill in the summary section.
 skills:
-- name: Kubernetes
-  #logo: "/images/sections/skills/kubernetes.png"
-  summary: "Capable of deploying, managing application on Kubernetes. Experienced in writing Kubernetes controllers for CRDs."
-  url: "https://kubernetes.io/"
+- name: Webentwicklung
+  logo: "/images/sections/skills/laptop-code.svg"
+  summary: "Frontend-Entwicklung, insbesondere HTML/CSS und weitergehende Technologien wie Vue.js oder Svelte."
+  #url: "https://kubernetes.io/"
 
 - name: Go Development
   #logo: "/images/sections/skills/go.png"

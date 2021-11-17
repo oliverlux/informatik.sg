@@ -1,6 +1,6 @@
 # section information
 section:
-  name: Projects
+  name: Module
   id: projects
   enable: true
   weight: 4
@@ -8,41 +8,171 @@ section:
   # Can optionally hide the title in sections
   # hideTitle: true
 
+
 # filter buttons
 buttons:
-- name: All
+- name: Alle
   filter: "all"
-- name: Professional
-  filter: "professional"
-- name: Academic
-  filter: "academic"
-- name: Hobby
-  filter: "hobby"
+- name: BiVo 2021
+  filter: "BiVo2021"
+- name: BiVo 2014
+  filter: "BiVo2014"
+- name: Ältere Module
+  filter: "alteModule"
+
+
 
 # your projects
 projects:
-- name: Kubernetes
-  #logo: /images/sections/projects/kubernetes.png
-  role: Contributor
-  timeline: "March 2018 - Present"
-  repo: https://github.com/kubernetes/kubernetes # If your project is a public repo on GitHub, then provide this link. it will show star count.
-  #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
-  summary: Production-Grade Container Scheduling and Management.
-  tags: ["professional", "kubernetes", "cloud"]
+- name: Modul 114
+  logo: "https://res.cloudinary.com/luggs/image/upload/v1537787228/Allgemein/Icons/solid/barcode.svg"
+  role:  Codierungs-, Kompressions- und Verschlüsselungsverfahren einsetzen
+  timeline: "2014 - Heute"
+  #repo: https://github.com/gbssg/m114 # If your project is a public repo on GitHub, then provide this link. it will show star count.
+  url: "https://m114.informatik.sg/"  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
+  summary: Das Modul wurde mit der BiVo 2014 im 1. Lehrjahr unterrichtet und neu mit der BiVo 2021 im 2. Lehrjahr. Das Modul umfasst 40 Lektionen. Der Kurs wird in die drei Teile Codierung, Kompression und Verschlüsselung unterteilt und mit praktischen Übungen vertieft. <br />[📝Modulidentifikation](https://www.modulbaukasten.ch/modul/104323c4-9c88-eb11-a812-0022486f644f)
+  tags: ["BiVo2014", "BiVo2021"]
 
-- name: Tensorflow
-  #logo: /images/sections/projects/tensorflow.png
-  role: Developer
-  timeline: "Jun 2018 - Present"
-  repo: https://github.com/tensorflow/tensorflow
-  #url: ""
-  summary: An Open Source Machine Learning Framework for Everyone.
-  tags: ["professional", "machine-learning","academic"]
+- name: Modul 117
+  logo: "https://res.cloudinary.com/luggs/image/upload/v1537787768/Allgemein/Icons/solid/users-cog.svg"
+  role:  Informatik- und Netzinfrastruktur für ein kleines Unternehmen realisieren
+  timeline: "2014 - Heute"
+  #repo: https://github.com/kubernetes/kubernetes # If your project is a public repo on GitHub, then provide this link. it will show star count.
+  url: "https://m114.informatik.sg/"  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
+  summary: Das Modul wird im 1. Lehrjahr unterrichtet und umfasst 40 Lektionen. Der Kurs beginnt mit den theoretischen Netzwerkgrundlagen. Dabei werden wichtige Netzwerkkonzepte behandelt, Netzwerke geplant und gezeichnet. Im praktischen Teil werden einfache Peer-to-Peer Netzwerke aufgebaut. <br />[📝Modulidentifikation](https://www.modulbaukasten.ch/modul/f674c9da-716c-eb11-b0b1-000d3a830b2b)
+  tags: ["BiVo2014", "BiVo2021"]
 
-- name: Toha
-  #logo: /images/sections/projects/toha.png
-  role: Owner
-  timeline: "Jun 2019 - Present"
-  repo: https://github.com/hossainemruz/toha
-  summary: A Hugo theme for personal portfolio.
-  tags: ["hobby","hugo","theme","professional"]
+- name: Modul 123
+  logo: "https://res.cloudinary.com/luggs/image/upload/v1537787633/Allgemein/Icons/solid/server.svg"
+  role:  Serverdienste in Betrieb nehmen
+  timeline: "2014 - Heute"
+  #repo: https://github.com/kubernetes/kubernetes # If your project is a public repo on GitHub, then provide this link. it will show star count.
+  #url: "https://www.informatik.sg/m123.html"  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
+  summary: Das Modul wird im 1. Lehrjahr unterrichtet und umfasst 40 Lektionen. Der Kurs repetiert zu Beginn nochmals die Netzwerkgrundlagen. Im weiteren Verlauf wird ein kleines Client-Server-Netzwerkaufgebaut und ein einfacher Domänenenserver installiert und konfiguriert. Dienste wie DHCP, DNS oder auch Benutzerdienste werden theoretisch und praktisch anhand Windows Server 2019 behandelt. <br />[📝Modulidentifikation](https://www.modulbaukasten.ch/modul/fe74c9da-716c-eb11-b0b1-000d3a830b2b)
+  tags: ["BiVo2014", "BiVo2021"]
+
+- name: Modul 150
+  logo: "https://res.cloudinary.com/luggs/image/upload/v1537787633/Allgemein/Icons/solid/industry.svg"
+  role:  E-Business-Applikationen anpassen
+  timeline: "2017 - Heute"
+  #repo: https://github.com/kubernetes/kubernetes # If your project is a public repo on GitHub, then provide this link. it will show star count.
+  #url: "https://www.informatik.sg/m150.html"  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
+  summary: Das Modul wird im 4. Lehrjahr unterrichtet und umfasst 40 Lektionen. Der Kurs bildet den Abschluss im Bereich Webentwicklung und behandelt zuerst Architektur- und Softwareprinzipen im Bereich Web (MVC, SOA, Microservices etc.). Zudem werden wichtige Technologien wie HTTP2/0, REST und TLS angeschaut. Im praktischen Teil wird eine Webapplikation analysiert, Änderungen geplant und mittels RfC eingereicht und umgesetzt. <br />[📝Modulidentifikation](https://www.modulbaukasten.ch/modul/1875c9da-716c-eb11-b0b1-000d3a830b2b)
+  tags: ["BiVo2014"]
+
+- name: Modul 152
+  logo: "https://res.cloudinary.com/luggs/image/upload/v1537787253/Allgemein/Icons/solid/camera.svg"
+  role:  Multimedia-Inhalte in Webauftritt integrieren
+  timeline: "2015 - Heute"
+  #repo: https://github.com/kubernetes/kubernetes # If your project is a public repo on GitHub, then provide this link. it will show star count.
+  url: "https://m152.informatik.sg/"  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
+  summary: Das Modul wird im 4. Lehrjahr unterrichtet und umfasst 40 Lektionen. Im Kurs werden eigene Multimediaprodukte erstellt (Fotos, Audio, Video und Logos) und am Ende in einem eigenen thematischen ePortfolio zusammengeführt und präsentiert. <br />[📝Modulidentifikation](https://www.modulbaukasten.ch/modul/1c75c9da-716c-eb11-b0b1-000d3a830b2b)
+  tags: ["BiVo2014"]
+
+- name: Modul 156
+  logo: "https://res.cloudinary.com/luggs/image/upload/v1537787253/Allgemein/Icons/solid/cogs.svg"
+  role:  Neue Services entwickeln und Einführung planen
+  timeline: "2017 - Heute"
+  #repo: https://github.com/kubernetes/kubernetes # If your project is a public repo on GitHub, then provide this link. it will show star count.
+  #url: "https://www.informatik.sg/m156.html"  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
+  summary: Das Modul wird im 4. Lehrjahr unterrichtet und umfasst 40 Lektionen. Im Kurs werden die Grundlagen von ITIL erarbeitet und verschiedene Tools zu ITIL evaluiert. Zudem werden ausgewählte ITIL-Prozesse im eigenen Lehrbetrieb genauer analysiert. <br />[📝Modulidentifikation](https://www.modulbaukasten.ch/modul/2475c9da-716c-eb11-b0b1-000d3a830b2b)
+  tags: ["BiVo2014"]
+
+- name: Modul 158
+  logo: "https://res.cloudinary.com/luggs/image/upload/v1537787513/Allgemein/Icons/solid/map-signs.svg"
+  role: Software-Migration planen und durchführen
+  timeline: "2021 - Heute"
+  #repo:
+  #url:
+  summary: Das Modul wird neu im 2. Lehrjahr bei den Plattformentwicklern unterrichtet und umfasst 40 Lektionen. Aufgrund eines Auftrags wird die Migration einer bestehenden Software erarbeitet (Major-Release Wechsel oder Migration in eine ähnliche Software). Die Installation auf einem Testsystem, die Migration mittels automatisierten Scripts und das Testing werden behandelt. <br />[📝Modulidentifikation](https://www.modulbaukasten.ch/modul/2875c9da-716c-eb11-b0b1-000d3a830b2b) 
+  tags: ["BiVo2021"]
+
+- name: Modul 169
+  logo: "https://res.cloudinary.com/luggs/image/upload/v1537787243/Allgemein/Icons/solid/box-open.svg"
+  role: Services mit Containern bereitstellen
+  timeline: "2021 - Heute"
+  #repo:
+  #url:
+  summary: Das Modul wird neu im 2. Lehrjahr bei den Plattformentwicklern unterrichtet und umfasst 40 Lektionen. Services werden gemäss Ansätzen von Microservicearchitekturen definiert, geplant und zur Verfügung gestellt. Dabei werden Containermechanismen genauer analysiert und praktisch umgesetzt. <br />[📝Modulidentifikation](https://www.modulbaukasten.ch/modul/e6d9888e-3878-eb11-a812-000d3a831967)
+  tags: ["BiVo2021"]
+
+- name: Modul 231
+  logo: "https://res.cloudinary.com/luggs/image/upload/v1537787769/Allgemein/Icons/solid/user-shield.svg"
+  role: Datenschutz und Datensicherheit anwenden
+  timeline: "2021 - Heute"
+  #repo:
+  url: "https://m231.informatik.sg/"
+  summary: Das Modul wird im 1. Lehrjahr unterrichtet und umfasst 40 Lektionen. Es werden die rechtlichen Grundlagen zum Datenschutz und die wichtigsten Prinzipien im Bereich Datensicherheit erarbeitet. Themen wie Urheberrecht oder Impressumspflicht werden ebenfalls behandelt. Zudem werden aktuelle Fälle im Bereich Datenschutz/-sicherheit im Unterricht aufgearbeitet und besprochen. <br />[📝Modulidentifikation](https://www.modulbaukasten.ch/modul/b9cb89e2-3d78-eb11-a812-000d3a831967)
+  tags: ["BiVo2021"]
+
+- name: Modul 239
+  logo: "https://res.cloudinary.com/luggs/image/upload/v1537788126/Allgemein/Icons/brands/linux.svg"
+  role:  Internetserver	in	Betrieb	nehmen
+  timeline: "2019 - Heute"
+  #repo: https://github.com/kubernetes/kubernetes # If your project is a public repo on GitHub, then provide this link. it will show star count.
+  #url: "https://www.informatik.sg/m156.html"  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
+  summary: Das Modul wird im 4. Lehrjahr unterrichtet und umfasst 40 Lektionen. Im Kurs werden die Grundlagen von DNS und Webservern erarbeitet. Im praktischen Teil werden Anforderungen mittels BIND und APACHE unter einem Ubuntu Server umgesetzt. <br />[📝Modulidentifikation](https://www.modulbaukasten.ch/modul/5275c9da-716c-eb11-b0b1-000d3a830b2b)
+  tags: ["BiVo2014"]
+
+- name: Modul 293
+  logo: "https://res.cloudinary.com/luggs/image/upload/v1537788109/Allgemein/Icons/brands/html5.svg"
+  role:  Webauftritt erstellen und veröffentlichen
+  timeline: "2019 - Heute"
+  repo: https://github.com/gbssg/Modul293 # If your project is a public repo on GitHub, then provide this link. it will show star count.
+  #url: "https://www.informatik.sg/m156.html"  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
+  summary: Das Modul wird im 1. Lehrjahr unterrichtet und umfasst 40 Lektionen. Neben den Grundlagen im Bereich HTML und CSS wird der gesamte Release-Zyklus einer Webseite behandelt und praktisch durchgeführt (Planung - Mockup - Prototyp - Entwicklung - Tests - GoLive). <br />[📝Modulidentifikation](https://www.modulbaukasten.ch/modul/04d7591d-6885-eb11-a812-0022486f644f)
+  tags: ["BiVo2021"]
+
+- name: Modul 346
+  logo: "https://res.cloudinary.com/luggs/image/upload/v1537787283/Allgemein/Icons/solid/cloud.svg"
+  role: Cloudlösungen konzipieren und implementieren
+  timeline: "2021 - Heute"
+  #repo:
+  url: "https://m346.informatik.sg/"
+  summary: Das Modul wird neu im 2. Lehrjahr bei den Plattformentwicklern unterrichtet und umfasst 40 Lektionen. Neben der Beurteilung von Cloud vs. One-Premise-Lösungen (inkl. Kosten) werden die wichtigsten Begriffe im Bereich Cloud erarbeitet. Die Installation und Konfiguration von vordefinierten Services in der Cloud wird praktisch durchgeführt. <br />[📝Modulidentifikation](https://www.modulbaukasten.ch/modul/c3252e7c-1a78-eb11-a812-000d3a831967)
+  tags: ["BiVo2021"]
+
+- name: Modul 431
+  logo: "https://res.cloudinary.com/luggs/image/upload/v1537787253/Allgemein/Icons/solid/file-alt.svg"
+  role:  Aufträge im IT-Umfeld selbständig durchführen
+  timeline: "2014 - Heute"
+  #repo: https://github.com/kubernetes/kubernetes # If your project is a public repo on GitHub, then provide this link. it will show star count.
+  url: "https://m431.informatik.sg/"  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
+  summary: Das Modul wird im 1. Lehrjahr unterrichtet und umfasst 40 Lektionen. Der Kurs behandelt grundlegende Projektarbeitstechniken, sowie Techniken zur eigenen Arbeitsorganisation, Kreativität und Lerntechnik. Im Kurs wird ein ePortfolio geführt, welches den Transfer in die eigene Praxis ermöglichen soll. <br />[📝Modulidentifikation](https://www.modulbaukasten.ch/modul/d275c9da-716c-eb11-b0b1-000d3a830b2b)
+  tags: ["BiVo2014", "BiVo2021"]
+
+- name: Modul 101
+  logo: "https://res.cloudinary.com/luggs/image/upload/v1537788109/Allgemein/Icons/brands/html5.svg"
+  role:  Webauftritt erstellen und veröffentlichen
+  timeline: "2010 - 2014"
+  #repo: https://github.com/kubernetes/kubernetes # If your project is a public repo on GitHub, then provide this link. it will show star count.
+  #url: "https://www.informatik.sg/m431.html"  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
+  summary: Modul wird von mir nicht mehr unterrichtet.
+  tags: ["alteModule"]
+
+- name: Modul 301
+  logo: "https://res.cloudinary.com/luggs/image/upload/v1537786764/Allgemein/Icons/file-word.svg"
+  role:  Office Werkzeuge anwenden
+  timeline: "2010 - 2014"
+  #repo: https://github.com/kubernetes/kubernetes # If your project is a public repo on GitHub, then provide this link. it will show star count.
+  #url: "https://www.informatik.sg/m431.html"  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
+  summary: Modul wird von mir nicht mehr unterrichtet.
+  tags: ["alteModule"]
+
+- name: Modul 302
+  logo: "https://res.cloudinary.com/luggs/image/upload/v1537786764/Allgemein/Icons/file-word.svg"
+  role:  Fortgeschrittene Funktionen von Office Werkzeugen nutzen
+  timeline: "2010 - 2014"
+  #repo: https://github.com/kubernetes/kubernetes # If your project is a public repo on GitHub, then provide this link. it will show star count.
+  #url: "https://www.informatik.sg/m431.html"  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
+  summary: Modul wird von mir nicht mehr unterrichtet.
+  tags: ["alteModule"]
+
+- name: Modul 305
+  logo: "https://res.cloudinary.com/luggs/image/upload/v1537788227/Allgemein/Icons/brands/windows.svg"
+  role:  Betriebssysteme installieren, konfigurieren und administrieren
+  timeline: "2010 - 2014"
+  #repo: https://github.com/kubernetes/kubernetes # If your project is a public repo on GitHub, then provide this link. it will show star count.
+  #url: "https://www.informatik.sg/m431.html"  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
+  summary: Modul wird von mir nicht mehr unterrichtet.
+  tags: ["alteModule"]
