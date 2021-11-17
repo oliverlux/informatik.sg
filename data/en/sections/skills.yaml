@@ -13,14 +13,14 @@ section:
 skills:
 - name: Webentwicklung
   logo: "/images/sections/skills/laptop-code.svg"
-  summary: "Frontend-Entwicklung, insbesondere HTML/CSS und weitergehende Technologien wie Vue.js oder Svelte."
+  summary: "Entwicklung und Gestaltung von Webanwendungen, mit Schwerpunkt Frontend-Entwicklung."
   #url: "https://kubernetes.io/"
 
-- name: Go Development
-  #logo: "/images/sections/skills/go.png"
-  summary: "Using as the main language for professional development. Capable of writing scalable, testable, and maintainable program."
+- name: Netzwerke
+  logo: "/images/sections/skills/th.svg"
+  summary: "Theoretische Grundlagen Netzwerk, Serveradministration (Windows, Linux) und Clouddienste."
   url: "https://golang.org/"
 
-- name: Cloud Computing
-  #logo: "/images/sections/skills/cloud.png"
-  summary: "Worked with most of the major clouds such as GCP, AWS, Azure etc."
+- name: Projektmanagement
+  logo: "/images/sections/skills/project-diagram.svg"
+  summary: "Organisation, Planung und Durchführung von Informatikprojekten"

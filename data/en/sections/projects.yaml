@@ -25,7 +25,7 @@ buttons:
 # your projects
 projects:
 - name: Modul 114
-  logo: "https://res.cloudinary.com/luggs/image/upload/v1537787228/Allgemein/Icons/solid/barcode.svg"
+  logo: "/images/sections/projects/barcode.svg"
   role:  Codierungs-, Kompressions- und Verschlüsselungsverfahren einsetzen
   timeline: "2014 - Heute"
   #repo: https://github.com/gbssg/m114 # If your project is a public repo on GitHub, then provide this link. it will show star count.
@@ -34,7 +34,7 @@ projects:
   tags: ["BiVo2014", "BiVo2021"]
 
 - name: Modul 117
-  logo: "https://res.cloudinary.com/luggs/image/upload/v1537787768/Allgemein/Icons/solid/users-cog.svg"
+  logo: "/images/sections/projects/users-cog.svg"
   role:  Informatik- und Netzinfrastruktur für ein kleines Unternehmen realisieren
   timeline: "2014 - Heute"
   #repo: https://github.com/kubernetes/kubernetes # If your project is a public repo on GitHub, then provide this link. it will show star count.
@@ -43,7 +43,7 @@ projects:
   tags: ["BiVo2014", "BiVo2021"]
 
 - name: Modul 123
-  logo: "https://res.cloudinary.com/luggs/image/upload/v1537787633/Allgemein/Icons/solid/server.svg"
+  logo: "/images/sections/projects/server.svg"
   role:  Serverdienste in Betrieb nehmen
   timeline: "2014 - Heute"
   #repo: https://github.com/kubernetes/kubernetes # If your project is a public repo on GitHub, then provide this link. it will show star count.
@@ -52,7 +52,7 @@ projects:
   tags: ["BiVo2014", "BiVo2021"]
 
 - name: Modul 150
-  logo: "https://res.cloudinary.com/luggs/image/upload/v1537787633/Allgemein/Icons/solid/industry.svg"
+  logo: "/images/sections/projects/industry.svg"
   role:  E-Business-Applikationen anpassen
   timeline: "2017 - Heute"
   #repo: https://github.com/kubernetes/kubernetes # If your project is a public repo on GitHub, then provide this link. it will show star count.
@@ -61,7 +61,7 @@ projects:
   tags: ["BiVo2014"]
 
 - name: Modul 152
-  logo: "https://res.cloudinary.com/luggs/image/upload/v1537787253/Allgemein/Icons/solid/camera.svg"
+  logo: "/images/sections/projects/camera.svg"
   role:  Multimedia-Inhalte in Webauftritt integrieren
   timeline: "2015 - Heute"
   #repo: https://github.com/kubernetes/kubernetes # If your project is a public repo on GitHub, then provide this link. it will show star count.
@@ -70,7 +70,7 @@ projects:
   tags: ["BiVo2014"]
 
 - name: Modul 156
-  logo: "https://res.cloudinary.com/luggs/image/upload/v1537787253/Allgemein/Icons/solid/cogs.svg"
+  logo: "/images/sections/projects/cogs.svg"
   role:  Neue Services entwickeln und Einführung planen
   timeline: "2017 - Heute"
   #repo: https://github.com/kubernetes/kubernetes # If your project is a public repo on GitHub, then provide this link. it will show star count.
@@ -79,7 +79,7 @@ projects:
   tags: ["BiVo2014"]
 
 - name: Modul 158
-  logo: "https://res.cloudinary.com/luggs/image/upload/v1537787513/Allgemein/Icons/solid/map-signs.svg"
+  logo: "/images/sections/projects/map-signs.svg"
   role: Software-Migration planen und durchführen
   timeline: "2021 - Heute"
   #repo:
@@ -88,7 +88,7 @@ projects:
   tags: ["BiVo2021"]
 
 - name: Modul 169
-  logo: "https://res.cloudinary.com/luggs/image/upload/v1537787243/Allgemein/Icons/solid/box-open.svg"
+  logo: "/images/sections/projects/box-open.svg"
   role: Services mit Containern bereitstellen
   timeline: "2021 - Heute"
   #repo:
@@ -97,7 +97,7 @@ projects:
   tags: ["BiVo2021"]
 
 - name: Modul 231
-  logo: "https://res.cloudinary.com/luggs/image/upload/v1537787769/Allgemein/Icons/solid/user-shield.svg"
+  logo: "/images/sections/projects/user-shield.svg"
   role: Datenschutz und Datensicherheit anwenden
   timeline: "2021 - Heute"
   #repo:
@@ -106,7 +106,7 @@ projects:
   tags: ["BiVo2021"]
 
 - name: Modul 239
-  logo: "https://res.cloudinary.com/luggs/image/upload/v1537788126/Allgemein/Icons/brands/linux.svg"
+  logo: "/images/sections/projects/linux.svg"
   role:  Internetserver	in	Betrieb	nehmen
   timeline: "2019 - Heute"
   #repo: https://github.com/kubernetes/kubernetes # If your project is a public repo on GitHub, then provide this link. it will show star count.
@@ -115,7 +115,7 @@ projects:
   tags: ["BiVo2014"]
 
 - name: Modul 293
-  logo: "https://res.cloudinary.com/luggs/image/upload/v1537788109/Allgemein/Icons/brands/html5.svg"
+  logo: "/images/sections/projects/html5.svg"
   role:  Webauftritt erstellen und veröffentlichen
   timeline: "2019 - Heute"
   repo: https://github.com/gbssg/Modul293 # If your project is a public repo on GitHub, then provide this link. it will show star count.
@@ -124,7 +124,7 @@ projects:
   tags: ["BiVo2021"]
 
 - name: Modul 346
-  logo: "https://res.cloudinary.com/luggs/image/upload/v1537787283/Allgemein/Icons/solid/cloud.svg"
+  logo: "/images/sections/projects/cloud.svg"
   role: Cloudlösungen konzipieren und implementieren
   timeline: "2021 - Heute"
   #repo:
@@ -133,7 +133,7 @@ projects:
   tags: ["BiVo2021"]
 
 - name: Modul 431
-  logo: "https://res.cloudinary.com/luggs/image/upload/v1537787253/Allgemein/Icons/solid/file-alt.svg"
+  logo: "/images/sections/projects/file-alt.svg"
   role:  Aufträge im IT-Umfeld selbständig durchführen
   timeline: "2014 - Heute"
   #repo: https://github.com/kubernetes/kubernetes # If your project is a public repo on GitHub, then provide this link. it will show star count.
@@ -142,7 +142,7 @@ projects:
   tags: ["BiVo2014", "BiVo2021"]
 
 - name: Modul 101
-  logo: "https://res.cloudinary.com/luggs/image/upload/v1537788109/Allgemein/Icons/brands/html5.svg"
+  logo: "/images/sections/projects/html5.svg"
   role:  Webauftritt erstellen und veröffentlichen
   timeline: "2010 - 2014"
   #repo: https://github.com/kubernetes/kubernetes # If your project is a public repo on GitHub, then provide this link. it will show star count.
@@ -151,7 +151,7 @@ projects:
   tags: ["alteModule"]
 
 - name: Modul 301
-  logo: "https://res.cloudinary.com/luggs/image/upload/v1537786764/Allgemein/Icons/file-word.svg"
+  logo: "/images/sections/projects/file-word.svg"
   role:  Office Werkzeuge anwenden
   timeline: "2010 - 2014"
   #repo: https://github.com/kubernetes/kubernetes # If your project is a public repo on GitHub, then provide this link. it will show star count.
@@ -160,7 +160,7 @@ projects:
   tags: ["alteModule"]
 
 - name: Modul 302
-  logo: "https://res.cloudinary.com/luggs/image/upload/v1537786764/Allgemein/Icons/file-word.svg"
+  logo: "/images/sections/projects/file-word.svg"
   role:  Fortgeschrittene Funktionen von Office Werkzeugen nutzen
   timeline: "2010 - 2014"
   #repo: https://github.com/kubernetes/kubernetes # If your project is a public repo on GitHub, then provide this link. it will show star count.
@@ -169,7 +169,7 @@ projects:
   tags: ["alteModule"]
 
 - name: Modul 305
-  logo: "https://res.cloudinary.com/luggs/image/upload/v1537788227/Allgemein/Icons/brands/windows.svg"
+  logo: "/images/sections/projects/windows.svg"
   role:  Betriebssysteme installieren, konfigurieren und administrieren
   timeline: "2010 - 2014"
   #repo: https://github.com/kubernetes/kubernetes # If your project is a public repo on GitHub, then provide this link. it will show star count.
