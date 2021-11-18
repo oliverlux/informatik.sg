@@ -19,7 +19,7 @@ skills:
 - name: Netzwerke
   logo: "/images/sections/skills/th.svg"
   summary: "Theoretische Grundlagen Netzwerk, Serveradministration (Windows, Linux) und Clouddienste."
-  url: "https://golang.org/"
+  #url: "https://golang.org/"
 
 - name: Projektmanagement
   logo: "/images/sections/skills/project-diagram.svg"
