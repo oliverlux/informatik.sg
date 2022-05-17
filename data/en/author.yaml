@@ -3,7 +3,7 @@ name: "informatik.sg"
 nickname: "informatik.sg"
 # greeting message before your name. it will default to "Hi! I am" if not provided
 greeting: "Willkommen bei "
-image: "images/author/oliver-lux-hso.png"
+image: "images/author/oliverlux.png"
 # give your some contact information. they will be used in the footer
 contactInfo:
   email: "oliver.lux@informatik.sg"
