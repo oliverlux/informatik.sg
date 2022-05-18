@@ -30,7 +30,7 @@ projects:
   timeline: "2014 - Heute"
   repo: https://github.com/gbssg/m114 # If your project is a public repo on GitHub, then provide this link. it will show star count.
    #url: "https://m114.informatik.sg"  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
-  summary: Das Modul wurde mit der BiVo 2014 im 1. Lehrjahr unterrichtet und neu mit der BiVo 2021 im 2. Lehrjahr. Das Modul umfasst 40 Lektionen. Der Kurs wird in die drei Teile Codierung, Kompression und Verschlüsselung unterteilt und mit praktischen Übungen vertieft. 
+  summary: Das Modul wurde mit der BiVo 2014 im 1. Lehrjahr unterrichtet und neu mit der BiVo 2021 im 2. Lehrjahr. Das Modul umfasst 40 Lektionen. Der Kurs wird in die drei Teile Codierung, Kompression und Verschlüsselung unterteilt und mit praktischen Übungen vertieft. [📚](https://www.modulbaukasten.ch/module/114 "Modulbaukasten")
   tags: ["BiVo2014", "BiVo2021"]
 
 - name: Modul 117
@@ -39,7 +39,7 @@ projects:
   timeline: "2014 - Heute"
   repo: https://github.com/gbssg/m117 # If your project is a public repo on GitHub, then provide this link. it will show star count.
   #url: "https://m117.informatik.sg/"  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
-  summary: Das Modul wird im 1. Lehrjahr unterrichtet und umfasst 40 Lektionen. Der Kurs beginnt mit den theoretischen Netzwerkgrundlagen. Dabei werden wichtige Netzwerkkonzepte behandelt, Netzwerke geplant und gezeichnet. Im praktischen Teil werden einfache Peer-to-Peer Netzwerke aufgebaut.
+  summary: Das Modul wird im 1. Lehrjahr unterrichtet und umfasst 40 Lektionen. Der Kurs beginnt mit den theoretischen Netzwerkgrundlagen. Dabei werden wichtige Netzwerkkonzepte behandelt, Netzwerke geplant und gezeichnet. Im praktischen Teil werden einfache Peer-to-Peer Netzwerke aufgebaut. [📚](https://www.modulbaukasten.ch/module/117 "Modulbaukasten")
   tags: ["BiVo2014", "BiVo2021"]
 
 - name: Modul 123
@@ -48,7 +48,7 @@ projects:
   timeline: "2014 - Heute"
   #repo: https://github.com/kubernetes/kubernetes # If your project is a public repo on GitHub, then provide this link. it will show star count.
   #url: "https://www.informatik.sg/m123.html"  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
-  summary: Das Modul wird im 1. Lehrjahr unterrichtet und umfasst 40 Lektionen. Der Kurs repetiert zu Beginn nochmals die Netzwerkgrundlagen. Im weiteren Verlauf wird ein kleines Client-Server-Netzwerkaufgebaut und ein einfacher Domänenenserver installiert und konfiguriert. Dienste wie DHCP, DNS oder auch Benutzerdienste werden theoretisch und praktisch anhand Windows Server 2019 behandelt.
+  summary: Das Modul wird im 1. Lehrjahr unterrichtet und umfasst 40 Lektionen. Der Kurs repetiert zu Beginn nochmals die Netzwerkgrundlagen. Im weiteren Verlauf wird ein kleines Client-Server-Netzwerkaufgebaut und ein einfacher Domänenenserver installiert und konfiguriert. Dienste wie DHCP, DNS oder auch Benutzerdienste werden theoretisch und praktisch anhand Windows Server 2019 behandelt. [📚](https://www.modulbaukasten.ch/module/123 "Modulbaukasten")
   tags: ["BiVo2014", "BiVo2021"]
 
 - name: Modul 150
@@ -57,7 +57,7 @@ projects:
   timeline: "2017 - Heute"
   #repo: https://github.com/kubernetes/kubernetes # If your project is a public repo on GitHub, then provide this link. it will show star count.
   #url: "https://www.informatik.sg/m150.html"  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
-  summary: Das Modul wird im 4. Lehrjahr unterrichtet und umfasst 40 Lektionen. Der Kurs bildet den Abschluss im Bereich Webentwicklung und behandelt zuerst Architektur- und Softwareprinzipen im Bereich Web (MVC, SOA, Microservices etc.). Zudem werden wichtige Technologien wie HTTP2/0, REST und TLS angeschaut. Im praktischen Teil wird eine Webapplikation analysiert, Änderungen geplant und mittels RfC eingereicht und umgesetzt. 
+  summary: Das Modul wird im 4. Lehrjahr unterrichtet und umfasst 40 Lektionen. Der Kurs bildet den Abschluss im Bereich Webentwicklung und behandelt zuerst Architektur- und Softwareprinzipen im Bereich Web (MVC, SOA, Microservices etc.). Zudem werden wichtige Technologien wie HTTP2/0, REST und TLS angeschaut. Im praktischen Teil wird eine Webapplikation analysiert, Änderungen geplant und mittels RfC eingereicht und umgesetzt. [📚](https://www.modulbaukasten.ch/module/150 "Modulbaukasten")
   tags: ["BiVo2014"]
 
 - name: Modul 152
@@ -66,7 +66,7 @@ projects:
   timeline: "2015 - Heute"
   #repo: https://github.com/kubernetes/kubernetes # If your project is a public repo on GitHub, then provide this link. it will show star count.
   url: "https://m152.informatik.sg/"  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
-  summary: Das Modul wird im 4. Lehrjahr unterrichtet und umfasst 40 Lektionen. Im Kurs werden eigene Multimediaprodukte erstellt (Fotos, Audio, Video und Logos) und am Ende in einem eigenen thematischen ePortfolio zusammengeführt und präsentiert. 
+  summary: Das Modul wird im 4. Lehrjahr unterrichtet und umfasst 40 Lektionen. Im Kurs werden eigene Multimediaprodukte erstellt (Fotos, Audio, Video und Logos) und am Ende in einem eigenen thematischen ePortfolio zusammengeführt und präsentiert. [📚](https://www.modulbaukasten.ch/module/152 "Modulbaukasten")
   tags: ["BiVo2014"]
 
 - name: Modul 156
@@ -75,7 +75,7 @@ projects:
   timeline: "2017 - Heute"
   #repo: https://github.com/kubernetes/kubernetes # If your project is a public repo on GitHub, then provide this link. it will show star count.
   #url: "https://www.informatik.sg/m156.html"  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
-  summary: Das Modul wird im 4. Lehrjahr unterrichtet und umfasst 40 Lektionen. Im Kurs werden die Grundlagen von ITIL erarbeitet und verschiedene Tools zu ITIL evaluiert. Zudem werden ausgewählte ITIL-Prozesse im eigenen Lehrbetrieb genauer analysiert. 
+  summary: Das Modul wird im 4. Lehrjahr unterrichtet und umfasst 40 Lektionen. Im Kurs werden die Grundlagen von ITIL erarbeitet und verschiedene Tools zu ITIL evaluiert. Zudem werden ausgewählte ITIL-Prozesse im eigenen Lehrbetrieb genauer analysiert. [📚](https://www.modulbaukasten.ch/module/156 "Modulbaukasten")
   tags: ["BiVo2014"]
 
 - name: Modul 158
@@ -84,7 +84,7 @@ projects:
   timeline: "2021 - Heute"
   #repo:
   #url:
-  summary: Das Modul wird neu im 2. Lehrjahr bei den Plattformentwicklern unterrichtet und umfasst 40 Lektionen. Aufgrund eines Auftrags wird die Migration einer bestehenden Software erarbeitet (Major-Release Wechsel oder Migration in eine ähnliche Software). Die Installation auf einem Testsystem, die Migration mittels automatisierten Scripts und das Testing werden behandelt.  
+  summary: Das Modul wird neu im 2. Lehrjahr bei den Plattformentwicklern unterrichtet und umfasst 40 Lektionen. Aufgrund eines Auftrags wird die Migration einer bestehenden Software erarbeitet (Major-Release Wechsel oder Migration in eine ähnliche Software). Die Installation auf einem Testsystem, die Migration mittels automatisierten Scripts und das Testing werden behandelt. [📚](https://www.modulbaukasten.ch/module/158 "Modulbaukasten") 
   tags: ["BiVo2021"]
 
 - name: Modul 169
@@ -93,7 +93,7 @@ projects:
   timeline: "2021 - Heute"
   #repo:
   #url:
-  summary: Das Modul wird neu im 2. Lehrjahr bei den Plattformentwicklern unterrichtet und umfasst 40 Lektionen. Services werden gemäss Ansätzen von Microservicearchitekturen definiert, geplant und zur Verfügung gestellt. Dabei werden Containermechanismen genauer analysiert und praktisch umgesetzt. 
+  summary: Das Modul wird neu im 2. Lehrjahr bei den Plattformentwicklern unterrichtet und umfasst 40 Lektionen. Services werden gemäss Ansätzen von Microservicearchitekturen definiert, geplant und zur Verfügung gestellt. Dabei werden Containermechanismen genauer analysiert und praktisch umgesetzt. [📚](https://www.modulbaukasten.ch/module/169 "Modulbaukasten") 
   tags: ["BiVo2021"]
 
 - name: Modul 231
@@ -102,7 +102,7 @@ projects:
   timeline: "2021 - Heute"
   repo: https://github.com/gbssg/m231
   #url: "https://m231.informatik.sg/"
-  summary: Das Modul wird im 1. Lehrjahr unterrichtet und umfasst 40 Lektionen. Es werden die rechtlichen Grundlagen zum Datenschutz und die wichtigsten Prinzipien im Bereich Datensicherheit erarbeitet. Themen wie Urheberrecht oder Impressumspflicht werden ebenfalls behandelt. Zudem werden aktuelle Fälle im Bereich Datenschutz/-sicherheit im Unterricht aufgearbeitet und besprochen. 
+  summary: Das Modul wird im 1. Lehrjahr unterrichtet und umfasst 40 Lektionen. Es werden die rechtlichen Grundlagen zum Datenschutz und die wichtigsten Prinzipien im Bereich Datensicherheit erarbeitet. Themen wie Urheberrecht oder Impressumspflicht werden ebenfalls behandelt. Zudem werden aktuelle Fälle im Bereich Datenschutz/-sicherheit im Unterricht aufgearbeitet und besprochen. [📚](https://www.modulbaukasten.ch/module/231 "Modulbaukasten")
   tags: ["BiVo2021"]
 
 - name: Modul 239
@@ -111,7 +111,7 @@ projects:
   timeline: "2019 - Heute"
   #repo: https://github.com/kubernetes/kubernetes # If your project is a public repo on GitHub, then provide this link. it will show star count.
   #url: "https://www.informatik.sg/m156.html"  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
-  summary: Das Modul wird im 4. Lehrjahr unterrichtet und umfasst 40 Lektionen. Im Kurs werden die Grundlagen von DNS und Webservern erarbeitet. Im praktischen Teil werden Anforderungen mittels BIND und APACHE unter einem Ubuntu Server umgesetzt. 
+  summary: Das Modul wird im 4. Lehrjahr unterrichtet und umfasst 40 Lektionen. Im Kurs werden die Grundlagen von DNS und Webservern erarbeitet. Im praktischen Teil werden Anforderungen mittels BIND und APACHE unter einem Ubuntu Server umgesetzt. [📚](https://www.modulbaukasten.ch/module/239 "Modulbaukasten")
   tags: ["BiVo2014"]
 
 - name: Modul 293
@@ -120,7 +120,7 @@ projects:
   timeline: "2019 - Heute"
   repo: https://github.com/gbssg/Modul293 # If your project is a public repo on GitHub, then provide this link. it will show star count.
   #url: "https://www.informatik.sg/m156.html"  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
-  summary: Das Modul wird im 1. Lehrjahr unterrichtet und umfasst 40 Lektionen. Neben den Grundlagen im Bereich HTML und CSS wird der gesamte Release-Zyklus einer Webseite behandelt und praktisch durchgeführt (Planung - Mockup - Prototyp - Entwicklung - Tests - GoLive). 
+  summary: Das Modul wird im 1. Lehrjahr unterrichtet und umfasst 40 Lektionen. Neben den Grundlagen im Bereich HTML und CSS wird der gesamte Release-Zyklus einer Webseite behandelt und praktisch durchgeführt (Planung - Mockup - Prototyp - Entwicklung - Tests - GoLive). [📚](https://www.modulbaukasten.ch/module/293 "Modulbaukasten")
   tags: ["BiVo2021"]
 
 - name: Modul 346
@@ -129,7 +129,7 @@ projects:
   timeline: "2021 - Heute"
   #repo:
   url: "https://m346.informatik.sg/"
-  summary: Das Modul wird neu im 2. Lehrjahr bei den Plattformentwicklern unterrichtet und umfasst 40 Lektionen. Neben der Beurteilung von Cloud vs. One-Premise-Lösungen (inkl. Kosten) werden die wichtigsten Begriffe im Bereich Cloud erarbeitet. Die Installation und Konfiguration von vordefinierten Services in der Cloud wird praktisch durchgeführt.
+  summary: Das Modul wird neu im 2. Lehrjahr bei den Plattformentwicklern unterrichtet und umfasst 40 Lektionen. Neben der Beurteilung von Cloud vs. One-Premise-Lösungen (inkl. Kosten) werden die wichtigsten Begriffe im Bereich Cloud erarbeitet. Die Installation und Konfiguration von vordefinierten Services in der Cloud wird praktisch durchgeführt. [📚](https://www.modulbaukasten.ch/module/346 "Modulbaukasten")
   tags: ["BiVo2021"]
 
 - name: Modul 431
@@ -138,7 +138,7 @@ projects:
   timeline: "2014 - Heute"
   repo: https://github.com/gbssg/m431 # If your project is a public repo on GitHub, then provide this link. it will show star count.
   #url: "https://m431.informatik.sg/"  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
-  summary: Das Modul wird im 1. Lehrjahr unterrichtet und umfasst 40 Lektionen. Der Kurs behandelt grundlegende Projektarbeit-stechniken, sowie Techniken zur eigenen Arbeitsorganisation, Kreativität und Lerntechnik. Im Kurs wird ein ePortfolio geführt, welches den Transfer in die eigene Praxis ermöglichen soll. 
+  summary: Das Modul wird im 1. Lehrjahr unterrichtet und umfasst 40 Lektionen. Der Kurs behandelt grundlegende Projektarbeit-stechniken, sowie Techniken zur eigenen Arbeitsorganisation, Kreativität und Lerntechnik. Im Kurs wird ein ePortfolio geführt, welches den Transfer in die eigene Praxis ermöglichen soll. [📚](https://www.modulbaukasten.ch/module/431 "Modulbaukasten")
   tags: ["BiVo2014", "BiVo2021"]
 
 - name: Modul 101
