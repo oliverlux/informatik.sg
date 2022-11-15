@@ -26,6 +26,9 @@ socialLinks:
 - name: Twitter
   icon: "fab fa-twitter"
   url: "https://www.twitter.com/oliverlux"
+- name: Mastodon
+  icon: "fab fa-mastodon"
+  url: "https://techhub.social/@oliverlux"
 - name: Linkedin
   icon: "fab fa-linkedin"
   url: "https://www.linkedin.com/in/oliver-lux-856b593/"
@@ -35,6 +38,7 @@ socialLinks:
 - name: Website
   icon: "fab fa-firefox"
   url: "https://www.oliverlux.ch"
+
 
 # your soft skills
 # give the percentage between 50 to 100 with 5 intervals.
