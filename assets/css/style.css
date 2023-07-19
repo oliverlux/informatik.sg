@@ -1,3 +1,7 @@
 a {
-    color: #5e81ac;
+    color: #ac5e85;
+}
+
+.home .greeting-subtitle {
+    color: black !important;
 }

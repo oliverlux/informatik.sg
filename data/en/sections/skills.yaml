@@ -1,6 +1,6 @@
 # section information
 section:
-  name: Schwerpunkte
+  name: Services
   id: skills
   enable: true
   weight: 2
@@ -11,16 +11,36 @@ section:
 # Your Skills.
 # Give a summary of you each skill in the summary section.
 skills:
-- name: Webentwicklung
-  logo: "/images/sections/skills/laptop-code.svg"
-  summary: "Entwicklung und Gestaltung von Webanwendungen, mit Schwerpunkt Frontend-Entwicklung."
-  #url: "https://kubernetes.io/"
+- name: Fachbereich Informatik
+  logo: "/images/sections/skills/info.svg"
+  summary: "Informationen für Berufsbildner und Lernende zum Fachbereich Informatik am GBS St.Gallen."
+  url: "https://fb.informatik.sg"
 
-- name: Netzwerke
+- name: Digitalscreen
   logo: "/images/sections/skills/th.svg"
-  summary: "Theoretische Grundlagen Netzwerk, Serveradministration (Windows, Linux) und Clouddienste."
-  #url: "https://golang.org/"
+  summary: "Freier Service, ähnlich wie Classroomscreen, zur Benützung für den Unterricht. Keine Registrierung notwendig."
+  url: "https://screen.informatik.sg"
 
-- name: Projektmanagement
+- name: URL-Shortener
   logo: "/images/sections/skills/project-diagram.svg"
-  summary: "Organisation, Planung und Durchführung von Informatikprojekten"
+  summary: "Eigener URL-Shortener zur Verwaltung von langen URLs. Um URLs zu kürzen, bitte Kontakt mit mir aufnehmen."
+
+- name: Zusatzinformationen
+  logo: "/images/sections/projects/file-alt.svg"
+  summary: "Zusatzinformationen zum Unterricht von Oliver Lux. Wird kontinuierlich weiterentwickelt."
+  url: "https://content.informatik.sg"
+
+- name: Folien
+  logo: "/images/sections/skills/slides.svg"
+  summary: "Foliensätze von Oliver Lux, generiert mit MARP (Tool zur Erstellung von Foliensätzen aus Markdown)."
+  url: "https://slides.informatik.sg"
+
+- name: Umfragen
+  logo: "/images/sections/skills/survey.svg"
+  summary: "Umfragen zum Unterricht von Oliver Lux."
+  url: "https://survey.informatik.sg"
+
+- name: Webseite lux.education
+  logo: "/images/sections/skills/person.svg"
+  summary: "Persönliche Webseite von Oliver Lux."
+  url: "https://www.lux.education"

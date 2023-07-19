@@ -1,0 +1,4 @@
+[ZoneTransfer]
+ZoneId=3
+ReferrerUrl=https://console.cloudinary.com/
+HostUrl=https://api.cloudinary.com/v1_1/luggs/image/download?api_key=181578541186475&attachment=true&audit_context=eyJhY3Rvcl90eXBlIjoidXNlciIsImFjdG9yX2lkIjoiYTBjMDk3YjVjM2Y4NzdjZjMzYzk4NDYxMzdkZWU4YzYiLCJ1c2VyX2V4dGVybmFsX2lkIjoiOTE3MDAwN2U5MzlkZDQyZDBjYmRjZmFiYTQyMTQwIiwidXNlcl9jdXN0b21faWQiOiJvbGl2ZXIubHV4QGluZm9ybWF0aWsuc2ciLCJjb21wb25lbnQiOiJjb25zb2xlIn0%3D&public_id=GBS%2Fgbs&signature=06005953b71c85e0821b4a05aa315e53f4140a5e&source=ml&target_filename=gbs.jpg&timestamp=1689770418&type=upload

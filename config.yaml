@@ -28,13 +28,13 @@ params:
   gitRepo: https://github.com/oliverlux/informatik.sg
 
   # specify whether you want to write some blog posts or not
-  enableBlogPost: true
+  enableBlogPost: false
 
   # specify whether you want to show Table of Contents in reading page
   enableTOC: true
 
   # specific background
-  background: images/nord-background.png
+  background: images/background.jpg
   
 
   # Provide newsletter configuration. This feature hasn't been implemented yet.
