@@ -1,7 +1,419 @@
-<!doctype html><html><head><title>Erstellung Dossiers</title><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><meta http-equiv=x-ua-compatible content="ie=edge"><link rel=stylesheet href=../../css/bootstrap.min.css><link rel=stylesheet href=../../css/layouts/main.css><link rel=stylesheet href=../../css/navigators/navbar.css><link rel=stylesheet href=../../css/plyr.css><link rel=stylesheet href=../../css/flag-icon.min.css><link href="https://fonts.googleapis.com/css2?family=Muli:wght@300;400;500;600" rel=stylesheet><link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css><meta property="og:title" content="Erstellung Dossiers"><meta property="og:description" content="Erläuterung einer Idee, wie Dossiers/Arbeitsblätter für den Unterricht kooperativ und nachvollziehbar erstellt werden können."><meta property="og:type" content="article"><meta property="og:url" content="/posts/erstellung-dossiers/"><meta property="article:published_time" content="2022-05-17T06:10:56+06:00"><meta property="article:modified_time" content="2022-05-17T06:10:56+06:00"><meta name=description content="Erstellung Dossiers"><link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/atom-one-dark.min.css><link rel=stylesheet href=../../css/layouts/single.css><link rel=stylesheet href=../../css/navigators/sidebar.css><link rel=stylesheet href=../../css/style.css></head><body data-spy=scroll data-target=#TableOfContents data-offset=80><div class="container-fluid bg-dimmed wrapper"><nav class="navbar navbar-expand-xl top-navbar final-navbar shadow"><div class=container><button class="navbar-toggler navbar-light" id=sidebar-toggler type=button onclick=toggleSidebar()>
-<span class=navbar-toggler-icon></span></button>
-<a class=navbar-brand href=../../>informatik.sg</a>
-<button class="navbar-toggler navbar-light" id=toc-toggler type=button onclick=toggleTOC()>
-<span class=navbar-toggler-icon></span></button><div class="collapse navbar-collapse lang-selector" id=top-nav-items><ul class="navbar-nav ml-auto"></ul></div></div></nav><section class=sidebar-section id=sidebar-section><div class=sidebar-holder><div class=sidebar id=sidebar><form class=mx-auto method=get action=../../search><input type=text name=keyword placeholder=Search data-search id=search-box></form><div class=sidebar-tree><ul class=tree id=tree><li id=list-heading><a href=../../posts data-filter=all>Posts</a></li><div class=subtree><li><a class=active href=../../posts/erstellung-dossiers/ title=Unterrichtsmaterial>Unterrichtsmaterial</a></li></div></ul></div></div></div></section><section class=content-section id=content-section><div class=content><div class="container p-0 read-area"><div class="hero-area col-sm-12" id=hero-area style=background-image:url(/images/default-hero.jpg)></div><div class=page-content><div class="author-profile ml-auto align-self-lg-center"><img class=rounded-circle src=../../images/author/oliverlux_hud4fcf5b1f472177c91afa9ff3d3c882f_215285_120x120_fit_box_2.png alt="Author Image"><h5 class=author-name>informatik.sg</h5><p>May 17, 2022</p></div><div class=title><h1>Erstellung Dossiers</h1></div><div class=post-content id=post-content><p>Erläuterung einer Idee, wie Dossiers/Arbeitsblätter für den Unterricht kooperativ und nachvollziehbar erstellt werden können.</p><h2 id=problematik>Problematik</h2><p>Werden Unterlagen für den Schulunterricht erstellt, sind diese häufig in einem Wordformat. Da bei Word die Nachvollziehbarkeit bei mehreren Autoren schwierig ist und der Fokus zu stark auf die Formatierung gelegt wird, wird in dieser Notiz ein anderes Vorgehen vorgeschlagen.</p><p>Das nachfolgende Vorgehen arbeitet mit Markdown, Pandoc, LaTeX und Git.</p><h2 id=eingesetzte-tools>Eingesetzte Tools</h2><p>Für die Erstellung der Inhalte dienen Markdowndateien, welche in einem normalen Texteditor (bspw. VSCode) erfasst werden. Bilder und Grafiken werden entweder in einem separaten lokalen Ordner oder über das Internet aufrufbar (bspw. <a href=http://www.cloudinary.com>www.cloudinary.com</a>) abgelegt. Da die Inhalte der Dossiers damit nur aus Text bestehen, kann ein Git-Repository zur Versionierung, Verwaltung und Zusammenarbeit eingesetzt werden.</p><p>Aus den Markdowndateien (entweder eine oder mehrere) wird über Pandoc ein PDF generiert (als Template dient eine LaTeX-Vorlage). Dieses PDF wird den Lernenden über die gewünschte Plattform zur Verfügung gestellt (OneNote, Moodle, etc.).</p><h3 id=markdown>Markdown</h3><p>Über Markdown werden die Inhalte für die Dossiers oder Arbeitsblätter erfasst. Dabei sind auch LaTeX-Befehle für math. Formeln oder spezielle Formatierungen für Aufgabenstellungen, Informationsboxen o.ä. möglich. Der Fokus liegt dabei lediglich auf dem Inhalt und nicht der Formatierung.</p><p>Für die einzelnen Kapitel eines Dossiers können unterschiedliche Markdowndateien erstellt und gepflegt werden. Dies fördert die Übersichtlichkeit. Bei der Erstellung des PDFs über Pandoc kann später angegeben werden, welche Markdowndateien zur Generierung des PDFs verwendet werden sollen. Damit bietet sich auch die Flexibilität, unterschiedliche Dossiers zu erstellen oder Inhalte in anderen Modulen ebenfalls zu integrieren.</p><p>Sämtliche Grafiken werden entweder in einem separaten Ordner lokal oder besser online gespeichert. Gerade im Zusammenhang mit Git macht es Sinn, die Grafiken nicht über das Git-Repository zu verwalten, sondern im Internet über eine URL zur Verfügung zu stellen. Dazu eignen sich Bildermanagement-Tools wie bspw. <a href=http://www.cloudinary.com>www.cloudinary.com</a>. Da können Grafiken gespeichert werden. Beim Aufruf der Grafikdatei können in der URL Parameter mitgegeben werden, damit die Grafik manipuliert werden kann (Verkleiner, Ausschneiden, unterschiedliche Formate, etc.).</p><p>Grundlegende Informationen wie Autor, Version, etc. werden über Frontmatter (d.h. im Kopf der Markdowndatei) angegeben.</p><h3 id=pandoc>Pandoc</h3><p>Mittels Pandoc wird über die Kommandozeile das PDF (oder auch andere Ausgabeformate wie bspw. HTML) generiert. Diese Generierung könnte allenfalls über bspw. Github-Actions automatisiert werden.</p><h3 id=git>Git</h3><p>Die einzelnen Markdowndateien werden über eine Versionsverwaltung gepflegt. Dabei eignet sich Git am besten. Damit ist eine Versionierung und gemeinsames Arbeiten sichergestellt.</p><h2 id=weitere-informationen>Weitere Informationen</h2><p>Unter <a href=https://plain-text.co/>https://plain-text.co/</a> ist der Prozess detailliert beschrieben.</p></div><div class="row pl-3 pr-3"><div class="col-md-6 share-buttons"></div><div class="col-md-6 btn-improve-page"><a href=https://github.com/oliverlux/informatik.sg/edit/main/content/posts/erstellung-dossiers.md title="Improve this page" target=_blank rel=noopener><i class="fas fa-code-branch"></i>Improve this page</a></div></div><hr><div class="row next-prev-navigator"></div><hr></div></div></div><a id=scroll-to-top class=btn><i class="fas fa-chevron-circle-up"></i></a></section><section class=toc-section id=toc-section><div class=toc-holder><h5 class="text-center pl-3">Table of Contents</h5><hr><div class=toc><nav id=TableOfContents><ul><li><a href=#problematik>Problematik</a></li><li><a href=#eingesetzte-tools>Eingesetzte Tools</a><ul><li><a href=#markdown>Markdown</a></li><li><a href=#pandoc>Pandoc</a></li><li><a href=#git>Git</a></li></ul></li><li><a href=#weitere-informationen>Weitere Informationen</a></li></ul></nav></div></div></section></div><footer class="container-fluid text-center align-content-center footer pb-2"><div class="container pt-5"><div class="row text-left"><div class="col-md-4 col-sm-12"><h5>Navigation</h5><ul><li class=nav-item><a class=smooth-scroll href=#allgemein>Allgemein</a></li><li class=nav-item><a class=smooth-scroll href=#skills>Schwerpunkte</a></li><li class=nav-item><a class=smooth-scroll href=#projects>Module</a></li></ul></div><div class="col-md-4 col-sm-12"><h5>Contact me:</h5><ul><li><span>Email:</span> <span>oliver.lux@informatik.sg</span></li><li><span>Phone:</span> <span>+41 76 527 44 96</span></li></ul></div></div></div><hr><div class=container><div class="row text-left"><div class=col-md-4><a id=theme href=https://github.com/hossainemruz/toha target=_blank rel=noopener><img src=../../images/theme-logo_hu8376fd15465fef26ffe66b6bcf0ca686_13669_32x0_resize_box_2.png alt="Toha Theme Logo">
-Toha</a></div><div class="col-md-4 text-center">© 2022 Copyright.</div><div class="col-md-4 text-right"><a id=hugo href=https://gohugo.io/ target=_blank rel=noopener>Powered by
-<img src=../../images/hugo-logo.svg alt="Hugo Logo" height=18></a></div></div></div></footer><script type=text/javascript src=../../js/jquery-3.4.1.min.js></script><script type=text/javascript src=../../js/popper.min.js></script><script type=text/javascript src=../../js/bootstrap.min.js></script><script type=text/javascript src=../../js/navbar.js></script><script type=text/javascript src=../../js/plyr.js></script><script type=text/javascript src=../../js/main.js></script><script src=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/highlight.min.js></script><script src=../../js/single.js></script><script>hljs.initHighlightingOnLoad();</script></body></html>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Erstellung Dossiers</title>
+    <meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+
+<link rel="stylesheet" href="../../css/bootstrap.min.css"/>
+<link rel="stylesheet" href="../../css/layouts/main.css"/>
+<link rel="stylesheet" href="../../css/navigators/navbar.css"/>
+<link rel="stylesheet" href="../../css/plyr.css"/>
+<link rel="stylesheet" href="../../css/flag-icon.min.css"/>
+
+
+<link href="https://fonts.googleapis.com/css2?family=Muli:wght@300;400;500;600" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" />
+
+
+
+
+<meta property="og:title" content="Erstellung Dossiers" />
+<meta property="og:description" content="Erläuterung einer Idee, wie Dossiers/Arbeitsblätter für den Unterricht kooperativ und nachvollziehbar erstellt werden können." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/posts/erstellung-dossiers/" />
+<meta property="article:published_time" content="2022-05-17T06:10:56+06:00" />
+<meta property="article:modified_time" content="2022-05-17T06:10:56+06:00" />
+
+
+    
+    
+<meta name="description" content="Erstellung Dossiers" />
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/atom-one-dark.min.css"
+/>
+<link rel="stylesheet" href="../../css/layouts/single.css"/>
+<link rel="stylesheet" href="../../css/navigators/sidebar.css">
+
+<link rel="stylesheet" href="../../css/style.css"/>
+
+
+
+    
+    
+  </head>
+
+  <body data-spy="scroll" data-target="#TableOfContents" data-offset="80">
+    <div class="container-fluid bg-dimmed wrapper">
+      
+      
+    
+
+
+
+
+
+
+
+
+
+
+
+
+<nav class="navbar navbar-expand-xl top-navbar final-navbar shadow">
+  <div class="container">
+      <button class="navbar-toggler navbar-light" id="sidebar-toggler" type="button" onclick="toggleSidebar()">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <a class="navbar-brand" href="../../">
+      informatik.sg</a>
+    <button class="navbar-toggler navbar-light" id="toc-toggler" type="button" onclick="toggleTOC()">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse lang-selector" id="top-nav-items">
+      <ul class="navbar-nav ml-auto">
+      
+      </ul>
+    </div>
+  </div>
+  
+  
+  
+</nav>
+
+
+
+      
+      
+  <section class="sidebar-section" id="sidebar-section">
+    <div class="sidebar-holder">
+      <div class="sidebar" id="sidebar">
+        <form class="mx-auto" method="get" action="../../search">
+          <input type="text" name="keyword" value="" placeholder="Search" data-search="" id="search-box" />
+        </form>
+        <div class="sidebar-tree">
+          <ul class="tree" id="tree">
+            <li id="list-heading"><a href="../../posts" data-filter="all">Posts</a></li>
+            <div class="subtree">
+                
+  
+  
+  
+  
+    
+    
+  
+  
+    
+    <li><a class="active" href="../../posts/erstellung-dossiers/" title="Unterrichtsmaterial">Unterrichtsmaterial</a></li>
+  
+
+
+            </div>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+      
+      
+<section class="content-section" id="content-section">
+  <div class="content">
+    <div class="container p-0 read-area">
+      
+      <div class="hero-area col-sm-12" id="hero-area" style='background-image: url(/images/default-hero.jpg);'>
+      </div>
+
+      
+      <div class="page-content">
+        <div class="author-profile ml-auto align-self-lg-center">
+          <img class="rounded-circle" src='../../images/author/oliverlux_hud4fcf5b1f472177c91afa9ff3d3c882f_215285_120x120_fit_box_2.png' alt="Author Image">
+          <h5 class="author-name">informatik.sg</h5>
+          <p>May 17, 2022</p>
+        </div>
+
+        <div class="title">
+          <h1>Erstellung Dossiers</h1>
+        </div>
+        
+        <div class="post-content" id="post-content">
+          <p>Erläuterung einer Idee, wie Dossiers/Arbeitsblätter für den Unterricht kooperativ und nachvollziehbar erstellt werden können.</p>
+<h2 id="problematik">Problematik</h2>
+<p>Werden Unterlagen für den Schulunterricht erstellt, sind diese häufig in einem Wordformat. Da bei Word die Nachvollziehbarkeit bei mehreren Autoren schwierig ist und der Fokus zu stark auf die Formatierung gelegt wird, wird in dieser Notiz ein anderes Vorgehen vorgeschlagen.</p>
+<p>Das nachfolgende Vorgehen arbeitet mit Markdown, Pandoc, LaTeX und Git.</p>
+<h2 id="eingesetzte-tools">Eingesetzte Tools</h2>
+<p>Für die Erstellung der Inhalte dienen Markdowndateien, welche in einem normalen Texteditor (bspw. VSCode) erfasst werden. Bilder und Grafiken werden entweder in einem separaten lokalen Ordner oder über das Internet aufrufbar (bspw. <a href="http://www.cloudinary.com">www.cloudinary.com</a>) abgelegt. Da die Inhalte der Dossiers damit nur aus Text bestehen, kann ein Git-Repository zur Versionierung, Verwaltung und Zusammenarbeit eingesetzt werden.</p>
+<p>Aus den Markdowndateien (entweder eine oder mehrere) wird über Pandoc ein PDF generiert (als Template dient eine LaTeX-Vorlage). Dieses PDF wird den Lernenden über die gewünschte Plattform zur Verfügung gestellt (OneNote, Moodle, etc.).</p>
+<h3 id="markdown">Markdown</h3>
+<p>Über Markdown werden die Inhalte für die Dossiers oder Arbeitsblätter erfasst. Dabei sind auch LaTeX-Befehle für math. Formeln oder spezielle Formatierungen für Aufgabenstellungen, Informationsboxen o.ä. möglich. Der Fokus liegt dabei lediglich auf dem Inhalt und nicht der Formatierung.</p>
+<p>Für die einzelnen Kapitel eines Dossiers können unterschiedliche Markdowndateien erstellt und gepflegt werden. Dies fördert die Übersichtlichkeit. Bei der Erstellung des PDFs über Pandoc kann später angegeben werden, welche Markdowndateien zur Generierung des PDFs verwendet werden sollen. Damit bietet sich auch die Flexibilität, unterschiedliche Dossiers zu erstellen oder Inhalte in anderen Modulen ebenfalls zu integrieren.</p>
+<p>Sämtliche Grafiken werden entweder in einem separaten Ordner lokal oder besser online gespeichert. Gerade im Zusammenhang mit Git macht es Sinn, die Grafiken nicht über das Git-Repository zu verwalten, sondern im Internet über eine URL zur Verfügung zu stellen. Dazu eignen sich Bildermanagement-Tools wie bspw. <a href="http://www.cloudinary.com">www.cloudinary.com</a>. Da können Grafiken gespeichert werden. Beim Aufruf der Grafikdatei können in der URL Parameter mitgegeben werden, damit die Grafik manipuliert werden kann (Verkleiner, Ausschneiden, unterschiedliche Formate, etc.).</p>
+<p>Grundlegende Informationen wie Autor, Version, etc. werden über Frontmatter (d.h. im Kopf der Markdowndatei) angegeben.</p>
+<h3 id="pandoc">Pandoc</h3>
+<p>Mittels Pandoc wird über die Kommandozeile das PDF (oder auch andere Ausgabeformate wie bspw. HTML) generiert. Diese Generierung könnte allenfalls über bspw. Github-Actions automatisiert werden.</p>
+<h3 id="git">Git</h3>
+<p>Die einzelnen Markdowndateien werden über eine Versionsverwaltung gepflegt. Dabei eignet sich Git am besten. Damit ist eine Versionierung und gemeinsames Arbeiten sichergestellt.</p>
+<h2 id="weitere-informationen">Weitere Informationen</h2>
+<p>Unter <a href="https://plain-text.co/">https://plain-text.co/</a> ist der Prozess detailliert beschrieben.</p>
+        </div>
+
+        
+        <div class="row pl-3 pr-3">
+        
+        <div class="col-md-6 share-buttons">
+        
+          </div>
+
+        
+        
+          
+            
+          
+          <div class="col-md-6 btn-improve-page">
+             
+               <a href="https://github.com/oliverlux/informatik.sg/edit/main/content/posts/erstellung-dossiers.md" title="Improve this page" target="_blank" rel="noopener">
+            
+                <i class="fas fa-code-branch"></i>
+                Improve this page
+              </a>
+          </div>
+        
+        </div>
+
+
+
+      
+      <hr />
+        
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+    
+    
+  
+  
+
+
+<div class="row next-prev-navigator">
+  
+  
+</div>
+
+      <hr />
+
+      
+      
+      
+      
+
+      </div>
+    </div>
+  </div>
+  
+  <a id="scroll-to-top" class="btn"><i class="fas fa-chevron-circle-up"></i></a>
+  
+</section>
+
+
+      
+      
+  <section class="toc-section" id="toc-section">
+    
+    <div class="toc-holder">
+      <h5 class="text-center pl-3">Table of Contents</h5>
+      <hr>
+      <div class="toc">
+        <nav id="TableOfContents">
+  <ul>
+    <li><a href="#problematik">Problematik</a></li>
+    <li><a href="#eingesetzte-tools">Eingesetzte Tools</a>
+      <ul>
+        <li><a href="#markdown">Markdown</a></li>
+        <li><a href="#pandoc">Pandoc</a></li>
+        <li><a href="#git">Git</a></li>
+      </ul>
+    </li>
+    <li><a href="#weitere-informationen">Weitere Informationen</a></li>
+  </ul>
+</nav>
+      </div>
+    </div>
+    
+  </section>
+
+    </div>
+
+    
+    
+
+
+
+
+
+
+
+
+
+  
+      
+  
+
+
+
+  
+  
+    
+  
+
+  
+  
+    
+  
+
+  
+  
+    
+    
+      
+    
+  
+
+
+  
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+    
+  
+  
+
+  
+  
+  
+
+  <footer class="container-fluid text-center align-content-center footer pb-2">
+    <div class="container pt-5">
+      <div class="row text-left">
+        
+        <div class="col-md-4 col-sm-12">
+          <h5>Navigation</h5>
+          
+          <ul>
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="#allgemein">Allgemein</a>
+                </li>
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="#skills">Schwerpunkte</a>
+                </li>
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="#projects">Module</a>
+                </li>
+              
+          </ul>
+          
+        </div>
+        
+        
+        <div class="col-md-4 col-sm-12">
+          <h5>Contact me:</h5>
+          <ul>
+            
+            <li><span>Email: </span> <span>oliver.lux@informatik.sg</span></li>
+            
+            <li><span>Phone: </span> <span>&#43;41 76 527 44 96</span></li>
+            
+          </ul>
+        </div>
+        
+        
+        
+      </div>
+    </div>
+    
+    
+    <hr />
+    <div class="container">
+      <div class="row text-left">
+        <div class="col-md-4">
+          <a id="theme" href="https://github.com/hossainemruz/toha" target="_blank" rel="noopener">
+            <img src="../../images/theme-logo_hu8376fd15465fef26ffe66b6bcf0ca686_13669_32x0_resize_box_2.png" alt="Toha Theme Logo">
+            Toha
+          </a>
+        </div>
+        <div class="col-md-4 text-center">© 2022 Copyright.</div>
+        <div class="col-md-4 text-right">
+          <a id="hugo" href="https://gohugo.io/" target="_blank" rel="noopener">Powered by
+          <img
+            src="../../images/hugo-logo.svg"
+            alt="Hugo Logo"
+            height="18"
+          />
+          </a>
+        </div>
+      </div>
+    </div>
+    
+  </footer>
+
+
+    <script type="text/javascript" src="../../js/jquery-3.4.1.min.js"></script>
+<script type="text/javascript" src="../../js/popper.min.js"></script>
+<script type="text/javascript" src="../../js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="../../js/navbar.js"></script>
+<script type="text/javascript" src="../../js/plyr.js"></script>
+<script type="text/javascript" src="../../js/main.js"></script>
+
+
+    
+    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/highlight.min.js"></script>
+<script src="../../js/single.js"></script>
+<script>
+  hljs.initHighlightingOnLoad();
+</script>
+
+
+  </body>
+</html>
