@@ -40,7 +40,7 @@ skills:
   summary: "Umfragen zum Unterricht von Oliver Lux."
   url: "https://survey.informatik.sg"
 
-- name: Webseite lux.education
-  logo: "/images/sections/skills/person.svg"
-  summary: "Persönliche Webseite von Oliver Lux."
-  url: "https://www.lux.education"
+- name: Notenrechner
+  logo: "/images/sections/skills/file-alt.svg"
+  summary: "Notenrechner"
+  url: "https://note.informatik.sg"
