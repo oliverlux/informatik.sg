@@ -41,6 +41,6 @@ skills:
   url: "https://survey.informatik.sg"
 
 - name: Notenrechner
-  logo: "/images/sections/skills/file-alt.svg"
+  logo: "/images/sections/projects/file-alt.svg"
   summary: "Notenrechner"
   url: "https://note.informatik.sg"
